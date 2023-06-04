@@ -118,54 +118,77 @@
               dark
               background-color="#0a192f"
             >
-              <v-tab>
-                Upstatement
+              <v-tab class="tab-title">
+                Yondu Inc.
               </v-tab>
-              <v-tab>
+              <!-- <v-tab class="tab-title">
                 Scout
-              </v-tab>
-              <v-tab>
-                Apple
-              </v-tab>
-              <v-tab>
-                Scout
-              </v-tab>
-              <v-tab>
-                Starry
-              </v-tab>
-              <v-tab>
-                MullenLowe
-              </v-tab>
+              </v-tab> -->
 
               <v-tab-item
                 class="tab-items"
               >
                 <v-card flat>
                   <v-card-text>
-                    <h4>Engineer <span>@ Upstatement</span></h4>
-                    <p>May 2018 - Present</p>
-                    <ul>
+                    <h4>
+                      <span 
+                        :style="{
+                          'color':'#fff',
+                          'font-size': '20px'
+                        }"
+                      >
+                        Jr. Software Engineer
+                      </span>
+                      <span 
+                        :style="{
+                          'color':'#64ffda',
+                          'font-size': '20px',
+                          'margin-bottom': '20px'
+                        }"
+                      > @ Yondu Inc.</span>
+                    </h4>
+                    <p 
+                      :style="{
+                        'color': '#797f9b',
+                        'font-size': '18px',
+                        'padding-bottom': '10px'
+                      }"
+                    >
+                      August 2021 - Present
+                    </p>
+                    <ul 
+                      :style="{
+                        'color': '#797f9b',
+                        'font-size': '16px'
+                      }"
+                    >
                       <li>
-                        Write modern, performant, maintainable code for a diverse array of client and internal projects
+                        Assists in conversion of technical component design into a working back-end code and /or front-end code.
                       </li>
                       <li>
-                        Write modern, performant, maintainable code for a diverse array of client and internal projects
+                        Delivers projects on time and budget consistently.
                       </li>
                       <li>
-                        Communicate with multi-disciplinary teams of engineers, designers, producers, and clients on a daily basis
+                        Applies generally accepted programming standards and techniques to assure efficient programming logic and data manipulation consistently.
+                      </li>
+                      <li>
+                        Diagnose and resolve software problems quickly and efficiently.
                       </li>
                     </ul>
                   </v-card-text>
                 </v-card>
               </v-tab-item>
-              <v-tab-item
+              <!-- <v-tab-item
                 class="tab-items"
               >
                 <v-card flat>
                   <v-card-text>
-                    <h4>Engineer <span>@ Upstatement</span></h4>
-                    <p>May 2018 - Present</p>
-                    <ul>
+                    <h4>
+                      <span :style="{'color':'#fff'}">Engineer </span>
+                      <span :style="{'color':'#64ffda'}">@ Upstatement</span>
+                    </h4>
+                    <p :style="{'color': '#797f9b'}">May 2018 - Present</p>
+                    <ul :style="{'color': '#797f9b'}">
                       <li>
                         Write modern, performant, maintainable code for a diverse array of client and internal projects
                       </li>
@@ -178,91 +201,8 @@
                     </ul>
                   </v-card-text>
                 </v-card>
-              </v-tab-item>
-              <v-tab-item
-                class="tab-items"
-              >
-                <v-card flat>
-                  <v-card-text>
-                    <h4>Engineer <span>@ Upstatement</span></h4>
-                    <p>May 2018 - Present</p>
-                    <ul>
-                      <li>
-                        Write modern, performant, maintainable code for a diverse array of client and internal projects
-                      </li>
-                      <li>
-                        Write modern, performant, maintainable code for a diverse array of client and internal projects
-                      </li>
-                      <li>
-                        Communicate with multi-disciplinary teams of engineers, designers, producers, and clients on a daily basis
-                      </li>
-                    </ul>
-                  </v-card-text>
-                </v-card>
-              </v-tab-item>
-              <v-tab-item
-                class="tab-items"
-              >
-                <v-card flat>
-                  <v-card-text>
-                    <h4>Engineer <span>@ Upstatement</span></h4>
-                    <p>May 2018 - Present</p>
-                    <ul>
-                      <li>
-                        Write modern, performant, maintainable code for a diverse array of client and internal projects
-                      </li>
-                      <li>
-                        Write modern, performant, maintainable code for a diverse array of client and internal projects
-                      </li>
-                      <li>
-                        Communicate with multi-disciplinary teams of engineers, designers, producers, and clients on a daily basis
-                      </li>
-                    </ul>
-                  </v-card-text>
-                </v-card>
-              </v-tab-item>
-              <v-tab-item
-                class="tab-items"
-              >
-                <v-card flat>
-                  <v-card-text>
-                    <h4>Engineer <span>@ Upstatement</span></h4>
-                    <p>May 2018 - Present</p>
-                    <ul>
-                      <li>
-                        Write modern, performant, maintainable code for a diverse array of client and internal projects
-                      </li>
-                      <li>
-                        Write modern, performant, maintainable code for a diverse array of client and internal projects
-                      </li>
-                      <li>
-                        Communicate with multi-disciplinary teams of engineers, designers, producers, and clients on a daily basis
-                      </li>
-                    </ul>
-                  </v-card-text>
-                </v-card>
-              </v-tab-item>
-              <v-tab-item
-                class="tab-items"
-              >
-                <v-card flat>
-                  <v-card-text>
-                    <h4>Engineer <span>@ Upstatement</span></h4>
-                    <p>May 2018 - Present</p>
-                    <ul>
-                      <li>
-                        Write modern, performant, maintainable code for a diverse array of client and internal projects
-                      </li>
-                      <li>
-                        Write modern, performant, maintainable code for a diverse array of client and internal projects
-                      </li>
-                      <li>
-                        Communicate with multi-disciplinary teams of engineers, designers, producers, and clients on a daily basis
-                      </li>
-                    </ul>
-                  </v-card-text>
-                </v-card>
-              </v-tab-item>
+              </v-tab-item> -->
+              
             </v-tabs>
           </div>
         </div>
@@ -278,7 +218,179 @@
               <span class="section-title">Projects</span>
             </h2>
           </div>
-          <div></div>
+          <div class="project-container">
+            <v-col>
+              <v-row>
+                <v-card
+                  class="mx-auto card"
+                  width="300"
+                  height="300"
+                >
+                  <div class="card-container">
+                    <h4 class="card-title">LoadUp, GoCloud</h4>
+                    <p class="card-paragraph">
+                      Integrates web-based load distribution that automates bulk load distribution to your target recipients.
+                    </p>
+                    <ul 
+                      :style="{
+                        'font-size': '14px',
+                        'list-style-type': 'none',
+                        'font-weight': '300',
+                        'display': 'flex',
+                        'margin-top': '10px',
+                        'color': '#a4b9fd'
+                      }"
+                    >
+                      <li>Vue</li>
+                      <li class="card-list-item">BootStrapVue</li>
+                      <li class="card-list-item">Postman</li>
+                    </ul>
+                  </div>
+                </v-card>
+    
+                <v-card
+                  class="mx-auto card"
+                  width="300"
+                  height="300"
+                >
+                  <div class="card-container">
+                    <h4 class="card-title">GoWifi</h4>
+                    <p class="card-paragraph">
+                      Designed and coded a public WIFI service website where users can connect their devices on WIFI networks available in community centers and other convergence areas that can be turned into WIFI hotspots.
+                    </p>
+                    <ul 
+                      :style="{
+                        'font-size': '14px',
+                        'list-style-type': 'none',
+                        'font-weight': '300',
+                        'display': 'flex',
+                        'margin-top': '10px',
+                        'color': '#a4b9fd'
+                      }"
+                    >
+                      <li>Vue</li>
+                      <li class="card-list-item">JQuery</li>
+                      <li class="card-list-item">Vuetify</li>
+                      <li class="card-list-item">Postman</li>
+                    </ul>
+                  </div>
+                </v-card>
+
+                <v-card
+                  class="mx-auto card"
+                  width="300"
+                  height="300"
+                >
+                  <div class="card-container">
+                    <h4 class="card-title">TMBayan</h4>
+                    <p class="card-paragraph">
+                      Designed and coded a public WIFI service website where users can connect their devices on WIFI networks available in community centers and other convergence areas that can be turned into WIFI hotspots.
+                    </p>
+                    <ul 
+                      :style="{
+                        'font-size': '14px',
+                        'list-style-type': 'none',
+                        'font-weight': '300',
+                        'display': 'flex',
+                        'margin-top': '10px',
+                        'color': '#a4b9fd'
+                      }"
+                    >
+                      <li>Vue</li>
+                      <li class="card-list-item">JQuery</li>
+                      <li class="card-list-item">Vuetify</li>
+                      <li class="card-list-item">Postman</li>
+                    </ul>
+                  </div>
+                </v-card>
+
+                <v-card
+                  class="mx-auto card"
+                  width="300"
+                  height="300"
+                >
+                  <div class="card-container">
+                    <h4 class="card-title">LCC</h4>
+                    <p class="card-paragraph">
+                      Designed and coded an ecommerce website where you can buy physical goods online. Implement LCC EStore using Vessell CMS to create attractive and user-friendly ecommerce website.
+
+                    </p>
+                    <ul 
+                      :style="{
+                        'font-size': '14px',
+                        'list-style-type': 'none',
+                        'font-weight': '300',
+                        'display': 'flex',
+                        'margin-top': '10px',
+                        'color': '#a4b9fd'
+                      }"
+                    >
+                      <li>Vue</li>
+                      <li class="card-list-item">Vessell CMS</li>
+                      <li class="card-list-item">Vuetify</li>
+                      <li class="card-list-item">Postman</li>
+                    </ul>
+                  </div>
+                </v-card>
+                
+                <v-card
+                  class="mx-auto card"
+                  width="300"
+                  height="300"
+                >
+                  <div class="card-container">
+                    <h4 class="card-title">Vessell CMS</h4>
+                    <p class="card-paragraph">
+                      Designed and coded Content Management System (CMS) website where you can design and develop your website and to manage all contents to your website.
+                    </p>
+                    <ul 
+                      :style="{
+                        'font-size': '14px',
+                        'list-style-type': 'none',
+                        'font-weight': '300',
+                        'display': 'flex',
+                        'margin-top': '10px',
+                        'color': '#a4b9fd'
+                      }"
+                    >
+                      <li>Vue</li>
+                      <li class="card-list-item">Vuetify</li>
+                      <li class="card-list-item">Postman</li>
+                    </ul>
+                  </div>
+                </v-card>
+
+                <v-card
+                  class="mx-auto card"
+                  width="300"
+                  height="300"
+                >
+                  <div class="card-container">
+                    <h4 class="card-title">Rex EStore</h4>
+                    <p class="card-paragraph">
+                      Designed and coded an ecommerce website where you can search and purchase needed reference material online.
+                    </p>
+                    <ul 
+                      :style="{
+                        'font-size': '14px',
+                        'list-style-type': 'none',
+                        'font-weight': '300',
+                        'display': 'flex',
+                        'margin-top': '10px',
+                        'color': '#a4b9fd'
+                      }"
+                    >
+                      <li>Vue</li>
+                      <li class="card-list-item">Vuetify</li>
+                      <li class="card-list-item">Postman</li>
+                    </ul>
+                  </div>
+                </v-card>
+              </v-row>
+            </v-col>
+
+            
+          </div>
         </div>
       </v-row>
     </section>
@@ -352,6 +464,29 @@ h3 {
 .container {
   margin: 0 15rem 0 15rem;
 }
+.card-container {
+  padding: 30px;
+  font-family: "apple-system", system-ui, sans-serif;
+  color: #ccd6f6;
+}
+.card-title {
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: normal;
+  padding-bottom: 5px;
+}
+.card-paragraph {
+  font-size: 16px !important;
+  font-weight: 300;
+  font-size: 18px;
+  padding-bottom: 5px;
+  text-align: left;
+  text-justify: distribute !important;
+  text-align-last: left !important;
+}
+.card-list-item {
+  margin-left: 15px;
+}
 .section-number {
   font-family: "Roboto Mono", monospace;
   color: #64ffda;
@@ -364,7 +499,30 @@ h3 {
   font-size: 35px;
   font-weight: 700;
 }
+.card {
+  background-color: #112240;
+  margin-left: 10px;
+  margin-bottom: 20px;
+}
 .v-card.v-card--flat.v-sheet.theme--light {
   background-color: #0a192f;
+  border-radius: 0px;
+  border: 0px !important;
+}
+::v-deep .v-tabs-slider,
+::v-deep .v-tabs-slider-wrapper {
+  background-color: #64ffda !important;
+  color: #64ffda !important;
+}
+::v-deep .v-window-item.tab-items {
+  border-bottom: 0px;
+  border-left: 0px !important;
+}
+.v-tab.v-tab--active {
+  color: #64ffda !important;
+  font-size: 18px !important;
+}
+::v-deep .tab-title {
+  text-transform: unset !important;
 }
 </style>
